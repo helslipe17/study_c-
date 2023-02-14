@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+#include <cstring>
+
+using namespace std;
+
+int main(){
+    int count;
+    char a = '.';
+    char b = '*';
+    cout << "Введите количество строк: ";
+    cin >> count;
+    for(int i = 0; i < count; i++)
+    {
+        for(int j = count; j > 0; j--){
+            cout << (j > i + 1 ? a : b);
+        }
+        cout << endl;
+    }
+    cout << endl;
+    return 0;
+}
+
+
+
+
