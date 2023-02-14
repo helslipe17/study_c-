@@ -1,0 +1,34 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+const int Mounce = 12;
+const int Years = 3;
+
+int main(){
+    const char * mounce[Mounce] =
+    { "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"};
+    
+    int years[Years] = {2020, 2021, 2022};
+    
+    int prodasha[Mounce][Years];
+    int summa;
+    int count;
+    
+    for(int j = 0; j < Years; j++){
+        for(int i = 0; i < Mounce; i++){
+            cout << "Введите количество проданных книг за месяц " << mounce[i] << " за " << years[j] << ": ";
+            cin >> count;
+            prodasha[i][j] = count;
+            summa += count;
+        }
+    }
+    cout << "Общая сумма проданных книг за год: " << summa << endl;
+    cout << endl;
+    return 0;
+}
+
+
+
+
