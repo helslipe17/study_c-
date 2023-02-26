@@ -1,0 +1,36 @@
+#include <iostream>
+
+
+const int SIZE = 10;
+
+int main(){
+    using namespace std;
+    
+    double money[SIZE];
+    
+    int cash;
+    int sum = 0;
+    int count = 0;
+    
+    for(int i = 0; i <  SIZE; i++){
+        cin >> cash;
+        money[i] = cash;
+        sum += cash;
+        if(cash != NULL)
+            count++;
+
+    }
+    double averageValue = double(sum) / double(count);
+    int bigCount = 0;
+    for (int i = 0; i < count; i++){
+        if( money[i] > averageValue)
+            bigCount ++;
+    }
+    cout << "Sum: " << sum << endl;
+    cout << "Count: " << count << endl;
+    cout << "Среднее значение всех цифр составляет: " << averageValue << endl;
+    cout << "Количе­ство значений в массиве, превышающих среднее: " << bigCount << endl;
+    cout << endl;
+    
+    return 0;
+}
