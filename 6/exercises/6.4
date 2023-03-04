@@ -1,0 +1,71 @@
+#include <iostream>
+
+const int SIZE = 20;
+const int BOP = 2;
+
+struct bop{
+    char fullname[SIZE];
+    char title[SIZE];
+    char bopname[SIZE];
+    int preference;
+};
+
+int main(){
+    using namespace std;
+    char choice;
+    bop Bop[BOP] = {"Dmitiy Tsyurko", "Programmer", "Dimasic", 1, "Ivan Ivanov", "QA", "Skorpion", 2};
+    cout << "Отчет о Благотворительна Ордене Программистов" << endl;
+    cout << "а. отображать по именам \t\t b. Отображать по должностям" << endl;
+    cout << "с. отображать по именам БОП \t d. Отображать по должностям" << endl;
+    cout << "q. выйти" << endl;
+    
+    do{
+        cout << "Ваш выбор:";
+        cin.get(choice);
+        cin.get();
+        if(choice == 'a'){
+            for(int i = 0; i < BOP; i++){
+                cout << Bop[i].fullname << endl;
+            }
+        }
+        else if(choice == 'b'){
+            for(int i = 0; i < BOP; i++){
+                cout << Bop[i].title << endl;
+            }
+        }
+        else if(choice == 'c'){
+            for(int i = 0; i < BOP; i++){
+                cout << Bop[i].bopname << endl;
+            }
+        }
+        else if(choice == 'd'){
+            for(int i = 0; i < BOP; i++){
+                switch (Bop[i].preference) {
+                    case 0:
+                        cout << Bop[i].fullname << endl;
+                        break;
+                    case 1:
+                        cout << Bop[i].title << endl;
+                        break;
+                    case 2:
+                        cout << Bop[i].bopname << endl;
+                        break;
+                        
+                    default:
+                        break;
+                }
+            }
+        }
+        else {
+            continue;
+        }
+    }
+    while (choice != 'q');
+    cout << "Пока!" << endl;
+    
+    
+    
+    cout << endl;
+    
+    return 0;
+}
