@@ -1,0 +1,35 @@
+#include <iostream>
+
+
+int main(){
+    using namespace std;
+    
+    cout << "Пожалуйста, введите одно из следующих значений :" << endl;
+    cout << "с) хищник" << "\t";
+    cout << "р) пианист" << endl;
+    cout << "t) дерево" << "\t";
+    cout << "g) игра" << endl;
+    
+    char ch;
+    while (cin >> ch) {
+        if(ch == 'c'){
+            cout << "Хищник вас сожрет" << endl;
+            break;
+        } else if(ch == 'p'){
+            cout << "Пианист сыграет на вашей свадьбе" << endl;
+            break;
+        } else if(ch == 't'){
+            cout << "Дерево - лучший материал для шкафа" << endl;
+            break;
+        } else if(ch == 'g'){
+            cout << "Игра будет веселой" << endl;
+            break;
+        } else{
+            cout << "Пожалуйста, введите с, р, t, или g: ";
+            continue;
+        }
+    }
+    cout << endl;
+    
+    return 0;
+}
