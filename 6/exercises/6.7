@@ -1,0 +1,40 @@
+#include <iostream>
+
+int main(){
+    using namespace std;
+    string word;
+    int consonants = 0;
+    int vowels = 0;
+    int other = 0;
+    cout << "Вводите слова (q - для выхода):" << endl;
+    while (cin >> word && word != "q") {
+        if(isalpha(word[0])){
+            switch (word[0]) {
+                case 'a':
+                case 'A':
+                case 'e':
+                case 'E':
+                case 'y':
+                case 'Y':
+                case 'u':
+                case 'U':
+                case 'i':
+                case 'I':
+                case 'o':
+                case 'O': vowels++;
+                    break;
+                    
+                default:
+                    consonants++;
+                    break;
+            }
+        } else other++;
+    }
+    cout << vowels << " слов начинаются с гласных" << endl;
+    cout << consonants << " слов начинаются с согласных" << endl;
+    cout << other << " остальных" << endl;
+    cout << endl;
+    
+    return 0;
+}
+ 
