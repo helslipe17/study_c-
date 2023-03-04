@@ -1,0 +1,37 @@
+#include <iostream>
+#include <fstream>
+
+int main(){
+    using namespace std;
+    ifstream inFile;
+    inFile.open("carinfo.txt");
+    char  ch;
+
+    if(!inFile.is_open()){
+        cout << "Не получилось открыть файл!" << endl;
+        exit(EXIT_FAILURE);
+    }
+
+    int count = 0;
+    inFile >> ch;
+    while (inFile.good()){
+        count++;
+        inFile >> ch;
+    }
+    if(inFile.eof()){
+        cout << "Достигнут конец файла!" << endl;
+    }
+    else if(inFile.fail()){
+        cout << "Ввод прекращен из-за несоответсвия типа" << endl;
+    } else{
+        cout << "Ввод прекращен по неизвестной причине" << endl;
+    }
+    if(count == 0){
+        cout << "Файл пустой" << endl;
+    } else{
+        cout << count << " символов находится в файле." << endl;
+    }
+
+
+    return 0;
+}
