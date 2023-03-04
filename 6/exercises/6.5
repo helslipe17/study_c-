@@ -1,0 +1,42 @@
+#include <iostream>
+
+
+int main(){
+    using namespace std;
+    int salary;
+    int salaryWithTenProc;
+    int salaryWithFifteenProc;
+    int salaryWithTwentyProc;
+    int finalySalary = 0;
+    cout << "Введите, сколько тварпов вы зарабатываете в месяц: ";
+    cin >> salary;
+    while (salary  > 0) {
+        if (salary <= 5000){
+            finalySalary = salary;
+            cout << "Ваша финальный доход составил: " << finalySalary << endl;
+        }
+        else if(salary > 5000 && salary <= 15000){
+            salaryWithTenProc = (salary - 5000) - ((salary - 5000) * 0.1);
+             finalySalary = 5000 +  salaryWithTenProc;
+            cout << "Ваша финальный доход составил: " << finalySalary << endl;
+        }
+        else if(salary > 15000 && salary <= 35000){
+            salaryWithTenProc = 10000 - (10000 * 0.1);
+            salaryWithFifteenProc = (salary - 15000) - ((salary - 15000) * 0.15);
+             finalySalary = 5000 + salaryWithFifteenProc + salaryWithTenProc;
+            cout << "Ваша финальный доход составил: " << finalySalary << endl;
+        }
+        else{
+            salaryWithTenProc = 10000 - (10000 * 0.1);
+            salaryWithFifteenProc = 20000 - (20000 * 0.15);
+            salaryWithTwentyProc = (salary - 35000) - ((salary - 35000) * 0.2);
+            finalySalary = 5000 + salaryWithTenProc + salaryWithFifteenProc + salaryWithTwentyProc;
+            cout << "Ваша финальный доход составил: " << finalySalary << endl;
+        }
+        cout << "Введите, сколько тварпов вы зарабатываете в месяц: ";
+        cin >> salary;
+    }
+    cout << endl;
+    
+    return 0;
+}
