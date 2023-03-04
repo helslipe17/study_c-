@@ -1,0 +1,46 @@
+#include <iostream>
+const int SIZE = 45;
+
+struct ozvl{
+    char name[SIZE];
+    double donations;
+};
+int main(){
+    using namespace std;
+    int countDonations;
+    int countGrangPatrons = 0;
+    int countPatons = 0;
+    cout << "Введите количество меценатов: ";
+    cin >> countDonations;
+    ozvl *ps = new ozvl[countDonations];
+    for (int i = 0; i < countDonations; i++){
+        cout << "Введите имя мецената №" << i + 1 << ": " ;
+        cin >> ps[i].name;
+        cout << "Введите количество пожертвований: ";
+        cin >> ps[i].donations;
+    }
+    cout << "Gгand Patгons" << endl;
+    for (int i = 0; i < countDonations; i++){
+        if(ps[i].donations >=10000){
+            cout << ps[i].name << endl;
+            countGrangPatrons++;
+        }
+    }
+    if(countGrangPatrons == 0)
+        cout << "none" << endl;
+    
+    cout << "Patгons" << endl;
+    for (int i = 0; i < countDonations; i++){
+        if(ps[i].donations < 10000){
+            cout << ps[i].name << endl;
+            countPatons ++;
+        }
+    }
+    if(countPatons == 0)
+        cout << "none" << endl;
+    
+    delete[] ps;
+    cout << endl;
+    
+    return 0;
+}
