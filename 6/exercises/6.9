@@ -1,6 +1,8 @@
+
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
 using namespace std;
 const int SIZE = 35;
 
@@ -27,22 +29,41 @@ int main(){
     cout << "Введите количество меценатов: ";
     inFile >> countDonations;
     cout << countDonations << endl;
-    ozvl *ps = new ozvl[countDonations];
-    for (int i = 0; i < countDonations && inFile.good(); i++){
-        cout << "Введите имя мецената №" << i + 1 << ": " ;
-        inFile >> ps[i].name;
-//        inFile.get(ps[i].name);
-        cout << ps[i].name;
-        cout << "\nВведите количество пожертвований: ";
-        inFile >> ps[i].donations;
-        cout << ps[i].donations << endl;
+    vector<ozvl> ps(countDonations);
+
+    string line;
+    bool is_name = true;
+
+    int i = 0;
+    if (inFile.is_open())
+    {
+    getline(inFile, line);
+        while (getline(inFile, line))
+        {
+        if(is_name)
+        {
+            cout << "Введите имя мецената №" << i + 1 << ": " ;
+            ps[i].name = line;
+            cout << ps[i].name;
+        }
+        else
+        {
+            cout << "\nВведите количество пожертвований: ";
+            ps[i].donations = std::stoi( line );
+            cout << ps[i].donations << endl;
+            i++;
+        }
+                is_name = !is_name;
+        }
     }
+    inFile.close();
+
     cout << "Gгand Patгons" << endl;
     for (int i = 0; i < countDonations; i++){
-        if(ps->donations >=10000){
+        if(ps[i].donations >=10000){
             cout << ps[i].name << endl;
             countGrangPatrons++;
-        }ps--;
+        };
     }
     if(countGrangPatrons == 0)
         cout << "none" << endl;
@@ -59,7 +80,6 @@ int main(){
 
     
     cout << endl;
-
 
 
     return 0;
