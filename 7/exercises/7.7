@@ -1,0 +1,61 @@
+#include <iostream>
+using namespace std;
+
+const int Max = 5;
+double *fill_array(double *start, double *end);
+void show_array( double *start, double *end);
+void revalue (double r, double *start, double * end);
+
+
+int main(){
+    double properties[Max];
+    double *end = fill_array(properties, properties + Max);
+    show_array(properties, end);
+    cout << "Введите коэффициент переоценки : ";
+    double factor;
+    cin >> factor;
+    revalue(factor, properties, end);
+    show_array(properties, end);
+    cout << "Готово.\n";
+    cout << endl;
+    return 0;
+}
+
+double *fill_array(double *start, double *end)
+{
+    double temp;
+    double *ps;
+    int i = 1;
+    for(ps = start; ps != end; ps++, i++){
+        cout << "Введите значение #" << i << ": ";
+        cin >> temp;
+        if(!cin){
+            cin.clear();
+            while (cin.get() != '\n') {
+                continue;
+            }
+            cout << "Неправильный ввод; процесс ввода прекращен.\n";
+            break;
+        }
+        else if (temp <= 0)
+            break;
+        *ps = temp;
+    }
+    return ps;
+}
+
+void show_array( double *start, double *end){
+    double *ps;
+    int i = 1;
+    for (ps = start; ps != end; ps++, i++){
+        cout << "Элемент#" << i << ": $";
+        cout << *ps << endl;
+    }
+}
+
+void revalue (double r, double *start, double * end){
+    double *ps;
+    int i = 1;
+    for(ps=start; ps != end; ps++, i++)
+        *ps *= r;
+}
