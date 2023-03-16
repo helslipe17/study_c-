@@ -1,0 +1,48 @@
+#include <iostream>
+
+using namespace std;
+
+
+struct box{
+    char maker[40];
+    float height;
+    float width;
+    float length;
+    float volume;
+};
+void enterBox (box example);
+void showBox (box &boxes, double volume);
+float proizvedBox(float a, float b, float c);
+
+int main(){
+    box a;
+    enterBox(a);
+    showBox(a, a.volume);
+    cout << endl;
+    return 0;
+}
+void enterBox (box example){
+    cout << "Введите название коробки: ";
+    cin.get(example.maker, 40);
+    cout << "Введите высоту коробки: ";
+    cin >> example.height;
+    cout << "Введите ширину коробки: ";
+    cin >> example.width;
+    cout << "Введите длину коробки: ";
+    cin >> example.length;
+    example.volume = proizvedBox(example.height, example.width, example.length);
+}
+
+void showBox (box &boxes, double volume){
+    cout << "Название коробки: " << boxes.maker << endl;
+    cout << "Высота коробки: " << boxes.height << endl;
+    cout << "Ширина коробки: " << boxes.width << endl;
+    cout << "Длина коробки: " << boxes.length << endl;
+    cout << "Обьем корбки составляет: " << volume << endl;
+}
+
+float proizvedBox(float a, float b, float c){
+    float proizvod = a * b * c;
+    return proizvod;
+}
+
