@@ -1,0 +1,62 @@
+#include <iostream>
+
+using namespace std;
+
+const int Max = 10;
+
+int fill_array(int arr[], int limit);
+void show_array(const int arr[], int limit);
+double average_value_array(const int arr[], int limit);
+
+
+
+int main(){
+    int array[Max];
+    int arrayCount = fill_array(array, Max);
+    show_array(array, arrayCount);
+    double average = average_value_array(array, arrayCount);
+    cout << "\nСреднее значение по массиву равно: " << average << endl;
+    
+   
+    cout << endl;
+    return 0;
+}
+
+int fill_array(int arr[], int limit){
+    int i;
+    int temp;
+    for (i = 0; i < limit; i++){
+        cout << "Введите результат игры №" << i + 1 << ": ";
+        cin >> temp;
+        if (!cin){
+            cin.clear();
+            while (cin.get()!= '\n')
+                continue;
+            cout << "Неправильный ввод; процесс ввода прекращен.\n";
+            break;
+        }
+        else if(temp < 0)
+            break;
+        arr[i] = temp;
+    }
+    return  i;
+}
+
+void show_array(const int arr[], int limit){
+    cout << "Массив заполнен числами: ";
+    for( int i = 0; i < limit; i++ )
+        cout << arr[i] << " ";
+}
+
+double average_value_array(const int arr[], int limit){
+    double average_value;
+    int sum_value = 0;
+    for(int i = 0; i < limit; i++)
+        sum_value += arr[i];
+    average_value = sum_value / limit;
+    return average_value;
+}
+
+
+
+
