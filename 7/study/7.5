@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+long factorial (long a, long fact);
+
+int main(){
+    long number;
+    long factor;
+    cout << "Введите факториал числа, которого хотите получить: ";
+    while (cin >> number) {
+        factor = factorial(number, number);
+        cout << "Факториал " << number << "! составляет: " << factor << endl;
+    }
+    cout << endl;
+    return 0;
+}
+
+long factorial (long a, long fact){
+    if (a == 0)
+        return 1;
+    while (a > 1) {
+        fact *= (a-1);
+        a--;
+        factorial(a, fact);
+    }
+    return fact;
+}
