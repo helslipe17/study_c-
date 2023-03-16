@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+int harmonicMean(int x, int y);
+
+
+int main(){
+    int firstNumber;
+    int secondNumber;
+    cout << "Введите первое значение: ";
+    cin >> firstNumber;
+    cout << "Введите второе значение: ";
+    cin >> secondNumber;
+    while ((firstNumber != 0) && (secondNumber !=0)){
+        int harmonic = harmonicMean(firstNumber, secondNumber);
+        cout << "Среднее гармоничное число равно: " << harmonic << endl;
+        cout << "Введите первое значение: ";
+        cin >> firstNumber;
+        cout << "Введите второе значение: ";
+        cin >> secondNumber;
+    }
+    if(firstNumber == 0 || secondNumber ==0){
+        cout <<"Одно из значений равно нулю, поэтому функция не действительна!" << endl;
+    }
+   
+    cout << endl;
+    return 0;
+}
+
+int harmonicMean(int x, int y){
+    return 2.0 * x * y / (x + y);
+}
+
+
+
+
