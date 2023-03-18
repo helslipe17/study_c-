@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+double add (double x, double y);
+double calculate ( double x, double y, double (*pt)(double, double));
+
+
+int main(){
+    double x, y;
+    double sum;
+    cout << "Введите x: ";
+    cin >> x;
+    cout << "Введите y: ";
+    cin >> y;
+    sum = calculate(x, y, &add);
+    cout << "Результат сложения: " << sum << endl;
+    cout << endl;
+    return 0;
+}
+
+double add (double x, double y){
+    return x + y;
+}
+
+double calculate ( double x, double y, double (*pt)(double, double)){
+    pt(x, y);
+    return x + y;
+}
