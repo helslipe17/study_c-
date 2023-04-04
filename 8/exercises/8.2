@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+struct CandyBar{
+    string str;
+    double weight;
+    int kallori;
+};
+
+void White(CandyBar &name, string st, double d, int i);
+void Show(CandyBar &name);
+int main(void){
+    struct CandyBar  Roshen;
+    string name = "Roshen";
+    double weight = 1065.3;
+    int kallori = 2011100;
+    White(Roshen, name, weight, kallori);
+    Show(Roshen);
+    cout << endl;
+    return 0;
+}
+
+void White(CandyBar &name, string st, double d, int i){
+    name.str = st;
+    name.weight = d;
+    name.kallori = i;
+}
+void Show(CandyBar &name){
+    cout << "Название: " << name.str << endl;
+    cout << "Вес: " << name.weight << endl;
+    cout << "Количество каллорий: "<< name.kallori << endl;
+    
+}
+
