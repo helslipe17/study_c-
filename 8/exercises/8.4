@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+#include <cstring>
+
+struct stringy{
+    char * str;
+    int ct;
+};
+
+void show(const char * str, int times = 1);
+void show(const stringy & some, int times = 1);
+void set(stringy & some, const char * cstr);
+void del(stringy & some);
+
+int main(void){
+    stringy beany;
+    char testing[] = "Реальность - это не то, что нам видится.";
+    set(beany, testing);
+    show(beany);
+    show(beany, 2);
+    testing[0] = 'D';
+    testing[1] = 'u';
+    del(beany);
+    show(testing);
+    show(testing, 3);
+    show("Готово!");
+    cout << endl;
+    return 0;
+}
+void show(const char * str, int times){
+    for(int i = 0; i < times; ++i)
+        cout << str << endl;
+}
+void show(const stringy & some, int times){
+    for(int i = 0; i < times; ++i)
+        cout << some.str << endl;
+}
+void set(stringy & some, const char * cstr){
+    some.ct = strlen(cstr);
+    some.str = new char[some.ct + 1];
+    strcpy(some.str, cstr);
+}
+void del(stringy & some)
+{
+    delete [] some.str;
+}
+
+
