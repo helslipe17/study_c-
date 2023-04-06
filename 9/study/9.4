@@ -1,1 +1,35 @@
+
 #include <iostream>
+using namespace std;
+
+void oil(int x);
+int main(){
+    int texas = 31;
+    int year = 1999;
+    cout << "B main(), texas = " << texas << ", &texas = ";
+    cout << &texas << endl;
+    cout << "B main(), year = " << year << ", &year = ";
+    cout << &year << endl;
+    oil(texas);
+    cout << "B main(), texas = " << texas << ", &texas = ";
+    cout << &texas << endl;
+    cout << "B main(), year = " << year << ", &year = ";
+    cout << &year << endl;
+}
+
+void oil(int x){
+    int texas = 5;
+    cout << "B oil(), texas = " << texas << ", &texas = ";
+    cout << &texas << endl;
+    cout << "B oil(), x = " << x << ", &x = ";
+    cout << &x << endl;
+    {
+        int texas = 113;
+        cout << "B блоке, texas = " << texas << ", &texas = ";
+        cout << &texas << endl;
+        cout << "B блоке, x = " << x << ", &x = ";
+        cout << &x << endl;
+    }
+    cout << "После выхода из блока texas = " << texas;
+    cout << ", &texas = " << &texas << endl;
+}
