@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>0422E03A-858D-4585-A51E-7D28882D93C0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0422E03A-858D-4585-A51E-7D28882D93C0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>12.4_Study project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>12.4_Study</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build 12.4_Study</string>
+			<key>timeStartedRecording</key>
+			<real>706548927.46774995</real>
+			<key>timeStoppedRecording</key>
+			<real>706548928.18134403</real>
+			<key>title</key>
+			<string>Build 12.4_Study</string>
+			<key>uniqueIdentifier</key>
+			<string>0422E03A-858D-4585-A51E-7D28882D93C0</string>
+		</dict>
+		<key>320B2E7D-0EE2-47A7-9819-89FE402C7AE3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>320B2E7D-0EE2-47A7-9819-89FE402C7AE3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>12.4_Study project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>12.4_Study</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build 12.4_Study</string>
+			<key>timeStartedRecording</key>
+			<real>706548934.72378004</real>
+			<key>timeStoppedRecording</key>
+			<real>706548935.11469805</real>
+			<key>title</key>
+			<string>Build 12.4_Study</string>
+			<key>uniqueIdentifier</key>
+			<string>320B2E7D-0EE2-47A7-9819-89FE402C7AE3</string>
+		</dict>
+		<key>7C017CDD-FE1A-40C2-A12E-9072DC7DC0B9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7C017CDD-FE1A-40C2-A12E-9072DC7DC0B9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>12.4_Study project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>12.4_Study</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build 12.4_Study</string>
+			<key>timeStartedRecording</key>
+			<real>706549001.12807</real>
+			<key>timeStoppedRecording</key>
+			<real>706549001.22448802</real>
+			<key>title</key>
+			<string>Build 12.4_Study</string>
+			<key>uniqueIdentifier</key>
+			<string>7C017CDD-FE1A-40C2-A12E-9072DC7DC0B9</string>
+		</dict>
+		<key>E9417922-4303-4700-B465-0083D1731239</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E9417922-4303-4700-B465-0083D1731239.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>12.4_Study project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>12.4_Study</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build 12.4_Study</string>
+			<key>timeStartedRecording</key>
+			<real>706549203.20087898</real>
+			<key>timeStoppedRecording</key>
+			<real>706549203.67741394</real>
+			<key>title</key>
+			<string>Build 12.4_Study</string>
+			<key>uniqueIdentifier</key>
+			<string>E9417922-4303-4700-B465-0083D1731239</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

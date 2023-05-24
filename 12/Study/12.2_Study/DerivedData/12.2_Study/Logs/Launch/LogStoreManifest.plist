@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>03FC341E-CDD7-4D61-A157-8E2E79987E0E</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>FC3FF072-DFDF-4815-B00F-634D70D580CE</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-12.2_Study-2023.05.19_18-58-39-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>12.2_Study project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>12.2_Study</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run 12.2_Study</string>
+			<key>timeStartedRecording</key>
+			<real>706204719.82050002</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run 12.2_Study</string>
+			<key>uniqueIdentifier</key>
+			<string>03FC341E-CDD7-4D61-A157-8E2E79987E0E</string>
+		</dict>
+		<key>E5351ED0-03AD-45FA-A6C9-1419632921BE</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>418BF52F-8443-4DFD-8C20-303B6297FEFC</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-12.2_Study-2023.05.18_22-42-37-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>12.2_Study project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>12.2_Study</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run 12.2_Study</string>
+			<key>timeStartedRecording</key>
+			<real>706131757.76652002</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run 12.2_Study</string>
+			<key>uniqueIdentifier</key>
+			<string>E5351ED0-03AD-45FA-A6C9-1419632921BE</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

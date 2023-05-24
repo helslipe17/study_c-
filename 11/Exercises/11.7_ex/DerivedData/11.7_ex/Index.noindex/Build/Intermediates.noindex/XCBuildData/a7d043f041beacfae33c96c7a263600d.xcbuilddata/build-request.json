@@ -1,0 +1,59 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "6594e2acc557e6e1371b451371dd56201f274e9a608225c8ebf03bc2705e64c3"
+    }
+  ],
+  "containerPath" : "/Users/dmitriytsyurko/Develop/11.7_ex/11.7_ex.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/dmitriytsyurko/Develop/11.7_ex/DerivedData/11.7_ex/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/dmitriytsyurko/Develop/11.7_ex/DerivedData/11.7_ex/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/dmitriytsyurko/Develop/11.7_ex/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/dmitriytsyurko/Develop/11.7_ex/DerivedData/11.7_ex/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/dmitriytsyurko/Develop/11.7_ex/DerivedData/11.7_ex/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/dmitriytsyurko/Develop/11.7_ex/DerivedData/11.7_ex/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/dmitriytsyurko/Develop/11.7_ex/DerivedData/11.7_ex/Build/Products",
+      "pchPath" : "/Users/dmitriytsyurko/Develop/11.7_ex/DerivedData/11.7_ex/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>418BF52F-8443-4DFD-8C20-303B6297FEFC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>418BF52F-8443-4DFD-8C20-303B6297FEFC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>12.2_Study project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>12.2_Study</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build 12.2_Study</string>
+			<key>timeStartedRecording</key>
+			<real>706131757.76798201</real>
+			<key>timeStoppedRecording</key>
+			<real>706131758.70348799</real>
+			<key>title</key>
+			<string>Build 12.2_Study</string>
+			<key>uniqueIdentifier</key>
+			<string>418BF52F-8443-4DFD-8C20-303B6297FEFC</string>
+		</dict>
+		<key>FC3FF072-DFDF-4815-B00F-634D70D580CE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FC3FF072-DFDF-4815-B00F-634D70D580CE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>12.2_Study project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>12.2_Study</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build 12.2_Study</string>
+			<key>timeStartedRecording</key>
+			<real>706204719.82196295</real>
+			<key>timeStoppedRecording</key>
+			<real>706204720.52405596</real>
+			<key>title</key>
+			<string>Build 12.2_Study</string>
+			<key>uniqueIdentifier</key>
+			<string>FC3FF072-DFDF-4815-B00F-634D70D580CE</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

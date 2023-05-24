@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>706DD28B-80F3-420E-B41E-BA7C537D1C86</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>7AE1F361-DC97-4B18-A3F0-219D6F05F399</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-11.4_ex-2023.05.14_18-43-07-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>11.4_ex project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>11.4_ex</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run 11.4_ex</string>
+			<key>timeStartedRecording</key>
+			<real>705771787.19628596</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run 11.4_ex</string>
+			<key>uniqueIdentifier</key>
+			<string>706DD28B-80F3-420E-B41E-BA7C537D1C86</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
