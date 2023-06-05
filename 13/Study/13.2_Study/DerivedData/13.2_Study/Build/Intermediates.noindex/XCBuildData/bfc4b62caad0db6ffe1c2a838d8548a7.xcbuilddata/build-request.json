@@ -1,0 +1,55 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "95e2793ca41da66387f78fcfe99c4ea9255572baf0914744a9cb69c6a410655f"
+    }
+  ],
+  "containerPath" : "/Users/dmitriytsyurko/Develop/13.2_Study/13.2_Study.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/dmitriytsyurko/Develop/13.2_Study/DerivedData/13.2_Study/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/dmitriytsyurko/Develop/13.2_Study/DerivedData/13.2_Study/Build/Products",
+      "derivedDataPath" : "/Users/dmitriytsyurko/Develop/13.2_Study/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/dmitriytsyurko/Develop/13.2_Study/DerivedData/13.2_Study/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/dmitriytsyurko/Develop/13.2_Study/DerivedData/13.2_Study/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/dmitriytsyurko/Develop/13.2_Study/DerivedData/13.2_Study/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

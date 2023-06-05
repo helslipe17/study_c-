@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>12F1A7DE-9134-4C8B-B01A-2AB1F5AB5DD6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>12F1A7DE-9134-4C8B-B01A-2AB1F5AB5DD6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>13.4_Study project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>13.4_Study</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build 13.4_Study</string>
+			<key>timeStartedRecording</key>
+			<real>707248206.33864701</real>
+			<key>timeStoppedRecording</key>
+			<real>707248207.064816</real>
+			<key>title</key>
+			<string>Build 13.4_Study</string>
+			<key>uniqueIdentifier</key>
+			<string>12F1A7DE-9134-4C8B-B01A-2AB1F5AB5DD6</string>
+		</dict>
+		<key>9857E0C1-5420-4A3E-A532-072920BA395A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9857E0C1-5420-4A3E-A532-072920BA395A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>13.4_Study project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>13.4_Study</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build 13.4_Study</string>
+			<key>timeStartedRecording</key>
+			<real>707248148.47832501</real>
+			<key>timeStoppedRecording</key>
+			<real>707248148.98271096</real>
+			<key>title</key>
+			<string>Build 13.4_Study</string>
+			<key>uniqueIdentifier</key>
+			<string>9857E0C1-5420-4A3E-A532-072920BA395A</string>
+		</dict>
+		<key>F5BCCC31-904F-41A4-947E-C514C336228F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F5BCCC31-904F-41A4-947E-C514C336228F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>13.4_Study project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>13.4_Study</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build 13.4_Study</string>
+			<key>timeStartedRecording</key>
+			<real>707248213.62517297</real>
+			<key>timeStoppedRecording</key>
+			<real>707248213.67872798</real>
+			<key>title</key>
+			<string>Build 13.4_Study</string>
+			<key>uniqueIdentifier</key>
+			<string>F5BCCC31-904F-41A4-947E-C514C336228F</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

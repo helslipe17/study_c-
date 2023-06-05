@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>18BD8D42-D62B-4B78-AD58-C8DCAA2A9AC9</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>F5BCCC31-904F-41A4-947E-C514C336228F</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-13.4_Study-2023.05.31_20-50-13-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>13.4_Study project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>13.4_Study</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run 13.4_Study</string>
+			<key>timeStartedRecording</key>
+			<real>707248213.62505198</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run 13.4_Study</string>
+			<key>uniqueIdentifier</key>
+			<string>18BD8D42-D62B-4B78-AD58-C8DCAA2A9AC9</string>
+		</dict>
+		<key>C1A08EB4-E965-4E17-8F65-DFDD048454C0</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>9857E0C1-5420-4A3E-A532-072920BA395A</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-13.4_Study-2023.05.31_20-49-08-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>13.4_Study project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>13.4_Study</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run 13.4_Study</string>
+			<key>timeStartedRecording</key>
+			<real>707248148.47747898</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run 13.4_Study</string>
+			<key>uniqueIdentifier</key>
+			<string>C1A08EB4-E965-4E17-8F65-DFDD048454C0</string>
+		</dict>
+		<key>F49BD806-3B50-441C-8BB4-190DAA617F02</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>12F1A7DE-9134-4C8B-B01A-2AB1F5AB5DD6</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-13.4_Study-2023.05.31_20-50-06-+0300.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>13.4_Study project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>13.4_Study</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run 13.4_Study</string>
+			<key>timeStartedRecording</key>
+			<real>707248206.33852994</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run 13.4_Study</string>
+			<key>uniqueIdentifier</key>
+			<string>F49BD806-3B50-441C-8BB4-190DAA617F02</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
